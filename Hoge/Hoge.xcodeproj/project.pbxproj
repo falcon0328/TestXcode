@@ -14,6 +14,7 @@
 		D271AACD1F9481220056590B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D271AACB1F9481220056590B /* LaunchScreen.storyboard */; };
 		D271AAD81F9481220056590B /* HogeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D271AAD71F9481220056590B /* HogeTests.swift */; };
 		D271AAE31F9481220056590B /* HogeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D271AAE21F9481220056590B /* HogeUITests.swift */; };
+		D271AAF11F9485570056590B /* lady-green-48x.png in Resources */ = {isa = PBXBuildFile; fileRef = D271AAF01F9485570056590B /* lady-green-48x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D271AADE1F9481220056590B /* HogeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HogeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D271AAE21F9481220056590B /* HogeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogeUITests.swift; sourceTree = "<group>"; };
 		D271AAE41F9481220056590B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D271AAF01F9485570056590B /* lady-green-48x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lady-green-48x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		D271AAC11F9481220056590B /* Hoge */ = {
 			isa = PBXGroup;
 			children = (
+				D271AAF01F9485570056590B /* lady-green-48x.png */,
 				D271AAC21F9481220056590B /* AppDelegate.swift */,
 				D271AAC41F9481220056590B /* ViewController.swift */,
 				D271AAC61F9481220056590B /* Main.storyboard */,
@@ -237,6 +240,7 @@
 			files = (
 				D271AACD1F9481220056590B /* LaunchScreen.storyboard in Resources */,
 				D271AACA1F9481220056590B /* Assets.xcassets in Resources */,
+				D271AAF11F9485570056590B /* lady-green-48x.png in Resources */,
 				D271AAC81F9481220056590B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

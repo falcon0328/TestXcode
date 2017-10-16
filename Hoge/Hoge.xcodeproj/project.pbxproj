@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D271AAC31F9481220056590B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D271AAC21F9481220056590B /* AppDelegate.swift */; };
+		D271AAC51F9481220056590B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D271AAC41F9481220056590B /* ViewController.swift */; };
+		D271AAC81F9481220056590B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D271AAC61F9481220056590B /* Main.storyboard */; };
+		D271AACA1F9481220056590B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D271AAC91F9481220056590B /* Assets.xcassets */; };
+		D271AACD1F9481220056590B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D271AACB1F9481220056590B /* LaunchScreen.storyboard */; };
+		D271AAD81F9481220056590B /* HogeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D271AAD71F9481220056590B /* HogeTests.swift */; };
+		D271AAE31F9481220056590B /* HogeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D271AAE21F9481220056590B /* HogeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D271AAD41F9481220056590B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D271AAB71F9481210056590B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D271AABE1F9481220056590B;
+			remoteInfo = Hoge;
+		};
+		D271AADF1F9481220056590B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D271AAB71F9481210056590B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D271AABE1F9481220056590B;
+			remoteInfo = Hoge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D271AABF1F9481220056590B /* Hoge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hoge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D271AAC21F9481220056590B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D271AAC41F9481220056590B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D271AAC71F9481220056590B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D271AAC91F9481220056590B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D271AACC1F9481220056590B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D271AACE1F9481220056590B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D271AAD31F9481220056590B /* HogeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HogeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D271AAD71F9481220056590B /* HogeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogeTests.swift; sourceTree = "<group>"; };
+		D271AAD91F9481220056590B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D271AADE1F9481220056590B /* HogeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HogeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D271AAE21F9481220056590B /* HogeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogeUITests.swift; sourceTree = "<group>"; };
+		D271AAE41F9481220056590B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D271AABC1F9481220056590B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D271AAD01F9481220056590B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D271AADB1F9481220056590B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D271AAB61F9481210056590B = {
+			isa = PBXGroup;
+			children = (
+				D271AAC11F9481220056590B /* Hoge */,
+				D271AAD61F9481220056590B /* HogeTests */,
+				D271AAE11F9481220056590B /* HogeUITests */,
+				D271AAC01F9481220056590B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D271AAC01F9481220056590B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D271AABF1F9481220056590B /* Hoge.app */,
+				D271AAD31F9481220056590B /* HogeTests.xctest */,
+				D271AADE1F9481220056590B /* HogeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D271AAC11F9481220056590B /* Hoge */ = {
+			isa = PBXGroup;
+			children = (
+				D271AAC21F9481220056590B /* AppDelegate.swift */,
+				D271AAC41F9481220056590B /* ViewController.swift */,
+				D271AAC61F9481220056590B /* Main.storyboard */,
+				D271AAC91F9481220056590B /* Assets.xcassets */,
+				D271AACB1F9481220056590B /* LaunchScreen.storyboard */,
+				D271AACE1F9481220056590B /* Info.plist */,
+			);
+			path = Hoge;
+			sourceTree = "<group>";
+		};
+		D271AAD61F9481220056590B /* HogeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D271AAD71F9481220056590B /* HogeTests.swift */,
+				D271AAD91F9481220056590B /* Info.plist */,
+			);
+			path = HogeTests;
+			sourceTree = "<group>";
+		};
+		D271AAE11F9481220056590B /* HogeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D271AAE21F9481220056590B /* HogeUITests.swift */,
+				D271AAE41F9481220056590B /* Info.plist */,
+			);
+			path = HogeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D271AABE1F9481220056590B /* Hoge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D271AAE71F9481220056590B /* Build configuration list for PBXNativeTarget "Hoge" */;
+			buildPhases = (
+				D271AABB1F9481220056590B /* Sources */,
+				D271AABC1F9481220056590B /* Frameworks */,
+				D271AABD1F9481220056590B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hoge;
+			productName = Hoge;
+			productReference = D271AABF1F9481220056590B /* Hoge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D271AAD21F9481220056590B /* HogeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D271AAEA1F9481220056590B /* Build configuration list for PBXNativeTarget "HogeTests" */;
+			buildPhases = (
+				D271AACF1F9481220056590B /* Sources */,
+				D271AAD01F9481220056590B /* Frameworks */,
+				D271AAD11F9481220056590B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D271AAD51F9481220056590B /* PBXTargetDependency */,
+			);
+			name = HogeTests;
+			productName = HogeTests;
+			productReference = D271AAD31F9481220056590B /* HogeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D271AADD1F9481220056590B /* HogeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D271AAED1F9481220056590B /* Build configuration list for PBXNativeTarget "HogeUITests" */;
+			buildPhases = (
+				D271AADA1F9481220056590B /* Sources */,
+				D271AADB1F9481220056590B /* Frameworks */,
+				D271AADC1F9481220056590B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D271AAE01F9481220056590B /* PBXTargetDependency */,
+			);
+			name = HogeUITests;
+			productName = HogeUITests;
+			productReference = D271AADE1F9481220056590B /* HogeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D271AAB71F9481210056590B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = NagaoLab;
+				TargetAttributes = {
+					D271AABE1F9481220056590B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3BTZN69U72;
+						ProvisioningStyle = Automatic;
+					};
+					D271AAD21F9481220056590B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3BTZN69U72;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D271AABE1F9481220056590B;
+					};
+					D271AADD1F9481220056590B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3BTZN69U72;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D271AABE1F9481220056590B;
+					};
+				};
+			};
+			buildConfigurationList = D271AABA1F9481210056590B /* Build configuration list for PBXProject "Hoge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D271AAB61F9481210056590B;
+			productRefGroup = D271AAC01F9481220056590B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D271AABE1F9481220056590B /* Hoge */,
+				D271AAD21F9481220056590B /* HogeTests */,
+				D271AADD1F9481220056590B /* HogeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D271AABD1F9481220056590B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D271AACD1F9481220056590B /* LaunchScreen.storyboard in Resources */,
+				D271AACA1F9481220056590B /* Assets.xcassets in Resources */,
+				D271AAC81F9481220056590B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D271AAD11F9481220056590B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D271AADC1F9481220056590B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D271AABB1F9481220056590B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D271AAC51F9481220056590B /* ViewController.swift in Sources */,
+				D271AAC31F9481220056590B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D271AACF1F9481220056590B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D271AAD81F9481220056590B /* HogeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D271AADA1F9481220056590B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D271AAE31F9481220056590B /* HogeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D271AAD51F9481220056590B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D271AABE1F9481220056590B /* Hoge */;
+			targetProxy = D271AAD41F9481220056590B /* PBXContainerItemProxy */;
+		};
+		D271AAE01F9481220056590B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D271AABE1F9481220056590B /* Hoge */;
+			targetProxy = D271AADF1F9481220056590B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D271AAC61F9481220056590B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D271AAC71F9481220056590B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D271AACB1F9481220056590B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D271AACC1F9481220056590B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D271AAE51F9481220056590B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D271AAE61F9481220056590B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D271AAE81F9481220056590B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3BTZN69U72;
+				INFOPLIST_FILE = Hoge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.Hoge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D271AAE91F9481220056590B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3BTZN69U72;
+				INFOPLIST_FILE = Hoge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.Hoge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D271AAEB1F9481220056590B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3BTZN69U72;
+				INFOPLIST_FILE = HogeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.HogeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hoge.app/Hoge";
+			};
+			name = Debug;
+		};
+		D271AAEC1F9481220056590B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3BTZN69U72;
+				INFOPLIST_FILE = HogeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.HogeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hoge.app/Hoge";
+			};
+			name = Release;
+		};
+		D271AAEE1F9481220056590B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3BTZN69U72;
+				INFOPLIST_FILE = HogeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.HogeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Hoge;
+			};
+			name = Debug;
+		};
+		D271AAEF1F9481220056590B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3BTZN69U72;
+				INFOPLIST_FILE = HogeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.HogeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Hoge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D271AABA1F9481210056590B /* Build configuration list for PBXProject "Hoge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D271AAE51F9481220056590B /* Debug */,
+				D271AAE61F9481220056590B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D271AAE71F9481220056590B /* Build configuration list for PBXNativeTarget "Hoge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D271AAE81F9481220056590B /* Debug */,
+				D271AAE91F9481220056590B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D271AAEA1F9481220056590B /* Build configuration list for PBXNativeTarget "HogeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D271AAEB1F9481220056590B /* Debug */,
+				D271AAEC1F9481220056590B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D271AAED1F9481220056590B /* Build configuration list for PBXNativeTarget "HogeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D271AAEE1F9481220056590B /* Debug */,
+				D271AAEF1F9481220056590B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D271AAB71F9481210056590B /* Project object */;
+}
